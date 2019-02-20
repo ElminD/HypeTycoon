@@ -8,28 +8,25 @@ public class Item : MonoBehaviour {
     public int Cost;
     public bool itemBought = false;
     public int Boost;
+    public SpriteRenderer spriteRenderer;
 
     
     
     public void ButtonClick()
     {
-        if (Money.MoneyAmount > Cost)
+        if (itemBought == false)
         {
-            Money.MoneyAmount = Money.MoneyAmount - Cost;
-
-            itemBought = true;
-
-            if (itemBought = true)
+            if (Money.MoneyAmount > Cost)
             {
+                Money.MoneyAmount = Money.MoneyAmount - Cost;
+
+
                 Money.MoneyPerSec = Money.MoneyPerSec + Boost;
+
+                itemBought = true;
+                
+                this.spriteRenderer.enabled = true;
             }
-
         }
-
-        
-    }
-
-    
-
-    
+    } 
 }
