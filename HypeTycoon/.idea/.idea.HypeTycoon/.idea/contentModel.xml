@@ -5,9 +5,13 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="CameraMovement.cs" t="Include" />
-          <e p="Item.cs" t="Include" />
+          <e p="AddToClicks.cs" t="Include" />
+          <e p="GoToMouse.cs" t="Include" />
           <e p="Money.cs" t="Include" />
+          <e p="MovingLeftCamera.cs" t="Include" />
+          <e p="MovingRightCamera.cs" t="Include" />
+          <e p="UpgradeItems.cs" t="Include" />
+          <e p="Upgrades.cs" t="Include" />
         </e>
       </e>
       <e p="HypeTycoon.sln" t="IncludeFlat" />

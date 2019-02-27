@@ -11,10 +11,18 @@ public class Money : MonoBehaviour {
     public static float period = 1f;
     public static int ClickAmount = 10;
     public static int MoneyPerSec = 1;
+    Animator anim;
+    
+    
 	
 	// Update is called once per frame
+	void Start()
+	{
+		anim = GetComponent<Animator>();
+	}
 	void Update ()
     {
+	    
 
 	    if(Time.time > nextActionTime)
         {
@@ -28,6 +36,8 @@ public class Money : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             MoneyAmount = MoneyAmount + ClickAmount;
+            anim.Play("ClickerMoney", -1, 0.0f);
+
         }
 
         MoneyText.text = "Money: " + MoneyAmount.ToString();

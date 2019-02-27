@@ -63,9 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\AddToClicks.cs" />
+    <Compile Include="Assets\Scripts\GoToMouse.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
+    <Compile Include="Assets\Scripts\MovingLeftCamera.cs" />
+    <Compile Include="Assets\Scripts\MovingRightCamera.cs" />
+    <Compile Include="Assets\Scripts\UpgradeItems.cs" />
+    <Compile Include="Assets\Scripts\Upgrades.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/didic20924/Documents/GitHub/HypeTycoon/HypeTycoon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
