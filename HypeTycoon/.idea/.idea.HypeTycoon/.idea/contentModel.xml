@@ -6,10 +6,15 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddToClicks.cs" t="Include" />
+          <e p="FollowThePath.cs" t="Include" />
           <e p="GoToMouse.cs" t="Include" />
+          <e p="GoToRandomWaypoint.cs" t="Include" />
           <e p="Money.cs" t="Include" />
+          <e p="MovingDownCamera.cs" t="Include" />
           <e p="MovingLeftCamera.cs" t="Include" />
           <e p="MovingRightCamera.cs" t="Include" />
+          <e p="MovingUpCamera.cs" t="Include" />
+          <e p="RandomlyGoToPoints.cs" t="Include" />
           <e p="UpgradeItems.cs" t="Include" />
           <e p="Upgrades.cs" t="Include" />
         </e>

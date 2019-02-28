@@ -64,10 +64,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AddToClicks.cs" />
+    <Compile Include="Assets\Scripts\FollowThePath.cs" />
     <Compile Include="Assets\Scripts\GoToMouse.cs" />
+    <Compile Include="Assets\Scripts\GoToRandomWaypoint.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
+    <Compile Include="Assets\Scripts\MovingDownCamera.cs" />
     <Compile Include="Assets\Scripts\MovingLeftCamera.cs" />
     <Compile Include="Assets\Scripts\MovingRightCamera.cs" />
+    <Compile Include="Assets\Scripts\MovingUpCamera.cs" />
+    <Compile Include="Assets\Scripts\RandomlyGoToPoints.cs" />
     <Compile Include="Assets\Scripts\UpgradeItems.cs" />
     <Compile Include="Assets\Scripts\Upgrades.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CatControl : MonoBehaviour {
+public class GoToRandomWaypoint : MonoBehaviour {
 
 	[SerializeField]
 	Transform[] waypoints;
@@ -12,6 +12,7 @@ public class CatControl : MonoBehaviour {
 
 	int waypointIndex = 0;
 
+	
 	void Start () {
 		transform.position = waypoints [waypointIndex].transform.position;
 	}
@@ -22,7 +23,7 @@ public class CatControl : MonoBehaviour {
 
 	void Move()
 	{
-		transform.position = Vector2.MoveTowards (transform.position,
+		transform.position = Vector3.MoveTowards (transform.position,
 												waypoints[waypointIndex].transform.position,
 												moveSpeed * Time.deltaTime);
 
@@ -33,5 +34,7 @@ public class CatControl : MonoBehaviour {
 		if (waypointIndex == waypoints.Length)
 			waypointIndex = 0;
 	}
+
+	
 
 }
